@@ -41,18 +41,18 @@ proxies:
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
-  server: 84.32.217.120
+  server: 104.21.12.63
   port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: INDEX.Arcane509.Workers.DEV
   network: ws
   ws-opts:
-    path: /channels/act
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: index.arcane509.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
